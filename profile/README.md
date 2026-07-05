@@ -18,6 +18,7 @@ Command line tools for snails
 | --- | --- |
 | [ExEx](https://github.com/shellcell/exex) | Executable Explorer for inspecting and understanding executable files. |
 | [ttysvg](https://github.com/shellcell/ttysvg) | Records terminal sessions as SVG animations. |
+| [convert](https://github.com/shellcell/convert) | An interactive CLI for file conversion. |
 
 ## Install
 
@@ -25,11 +26,12 @@ Homebrew formulae are available from [`shellcell/homebrew-tap`](https://github.c
 
 ```sh
 brew tap shellcell/tap
-brew install exex ttysvg
+brew install exex ttysvg convert
 
 # or
 brew install shellcell/tap/exex
 brew install shellcell/tap/ttysvg
+brew install shellcell/tap/convert
 ```
 
 
