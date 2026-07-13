@@ -18,7 +18,7 @@ Command line tools for snails
 | --- | --- |
 | [ExEx](https://github.com/shellcell/exex) | Executable Explorer for inspecting and understanding executable files. |
 | [ttysvg](https://github.com/shellcell/ttysvg) | Records terminal sessions as SVG animations. |
-| [cnvrt](https://github.com/shellcell/convert) | An interactive CLI for file conversion. |
+| [cnvrt](https://github.com/shellcell/cnvrt) | An interactive CLI for file conversion. |
 | [snailrace](https://github.com/shellcell/snailrace) | Benchmarking tool. |
 
 ## Install
