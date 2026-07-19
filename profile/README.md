@@ -23,18 +23,35 @@ Command line tools for snails
 
 ## Install
 
-Homebrew formulae are available from [`shellcell/homebrew-tap`](https://github.com/shellcell/homebrew-tap):
+### Homebrew (macOS / Linux)
+
+From [`shellcell/homebrew-tap`](https://github.com/shellcell/homebrew-tap):
 
 ```sh
-brew tap shellcell/tap
-brew install exex ttysvg cnvrt snailrace
-
-# or
 brew install shellcell/tap/exex
 brew install shellcell/tap/ttysvg
 brew install shellcell/tap/cnvrt
 brew install shellcell/tap/snailrace
 ```
 
+### Linux packages (apt / dnf / apk)
 
-Each project repository also includes its own usage examples and release notes.
+apt, dnf and apk repositories are served from
+[packages.shellcell.dev](https://packages.shellcell.dev), where you enable the
+shellcell repository once, then install any tool by name (e.g. `apt install
+exex`). The page has copy-paste setup for each distribution.
+
+### Arch (AUR)
+
+Each tool is on the [AUR](https://aur.archlinux.org) as `<tool>` (builds from
+source) and `<tool>-bin` (prebuilt). With an AUR helper (e.g. `paru` or `yay`):
+
+```sh
+paru -S ttysvg       # or ttysvg-bin
+```
+
+### Other
+
+Each tool can also be installed with `go install`, and every
+[release](https://github.com/shellcell) ships prebuilt binaries with man pages
+and shell completions. See each project's README for details.
